@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" id="root" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <script>
+        function changeTheme() {
+            let el = document.getElementById("root");
+            if(el.className == "dark"){
+                document.getElementById("root").className = "light";
+            }
+            else{
+                document.getElementById("root").className = "dark";
+            }
+        }
+    </script></head>
+<body class="bg-white dark:bg-slate-900 dark:text-white">
+    <button class="bg-blue-500 dark:bg-slate-700 text-white p-2 rounded" onclick="changeTheme()">Dark mode</button>
+    <div class="dark:bg-slate-900 dark:text-white">
+        <h1 class="text-7xl text-bold">Dark  mode Theme test </h1>
+    </div>
+    <div class="flex m-20 border border-slate-700">
+        <div class="bg-blue-300 size-12 "></div>
+    
+    <div>
+
+        <p class="text-4xl text-bold ml-4">  box with dark mode</p>
+    </div>
+    </div>
+</body>
+</html>
