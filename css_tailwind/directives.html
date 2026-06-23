@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <!-- in directive you can design base styles -->
+      <!-- @layer base{
+             h1{
+          font-size: 50px;
+               }
+              } --> 
+  <!-- this is add in input.css -->
+    <h1>hello</h1>
+    <button>click me</button>
+    <!-- add this in @layer base -->
+     <!-- button{
+    padding: 3px;
+    border: 1px solid black;
+  } -->
+    <!-- with help of tailwind class -->
+     <h2>hello</h2>
+     <!-- @layer base{
+  h2{
+  @apply text-3xl font-bold underline;
+  }
+} -->
+    
+</body>
+</html>
