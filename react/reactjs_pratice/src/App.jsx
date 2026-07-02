@@ -25,7 +25,7 @@ function App() {
    </div> 
   );
 };
-  export function Profile() {
+  export function Profile() {   
     const name = 'bhoomi';
   return (
     <div>
